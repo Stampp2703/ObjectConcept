@@ -1,8 +1,8 @@
 package th.ac.npru.swe.suphicha.oop;
 
 public abstract class Shape {
-	String color;
-    double area;
+	protected String color;
+    protected double area;
 	
 	abstract double getArea();
 	
